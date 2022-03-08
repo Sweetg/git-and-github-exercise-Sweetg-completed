@@ -19,4 +19,5 @@ git commit -am "commit 10"
 git checkout bug-fix
 git merge bug-fix-experimental
 git commit -am "commit 11"
+git commit -am "commit 12"
 
