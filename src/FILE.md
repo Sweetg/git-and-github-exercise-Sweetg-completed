@@ -9,4 +9,5 @@ git commit -am "commit 4"
 git branch bug-fix-experimental
 git merge master
 git commit -am "commit 5"
+git commit -am "commit 6"
 
