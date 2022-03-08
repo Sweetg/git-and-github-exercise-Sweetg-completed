@@ -5,3 +5,4 @@ git commit -am "commit 1"
 git commit -am "commit 2"
 git checkout bug-fix
 git commit -am "commit 3"
+git commit -am "commit 4"
