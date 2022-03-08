@@ -10,4 +10,13 @@ git branch bug-fix-experimental
 git merge master
 git commit -am "commit 5"
 git commit -am "commit 6"
+git checkout bug-fix-experimental
+git commit -am "commit 7"
+git commit -am "commit 8"
+git commit -am "commit 9"
+git checkout master
+git commit -am "commit 10"
+git checkout bug-fix
+git merge bug-fix-experimental
+git commit -am "commit 11"
 
