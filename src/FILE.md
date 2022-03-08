@@ -16,4 +16,10 @@ git commit -am "commit 8"
 git commit -am "commit 9"
 git checkout master
 git commit -am "commit 10"
-
+git checkout bug-fix
+git merge bug-fix-experimental
+git commit -am "commit 11"
+git commit -am "commit 12"
+git checkout master
+git merge bug-fix
+git commit -am "commit 13"
